@@ -12,7 +12,7 @@ import static org.springframework.web.reactive.function.server.RequestPredicates
 import static org.springframework.web.reactive.function.server.RouterFunctions.*;
 
 @Configuration
-public class GetAllQuestions {
+public class GetAllQuestionsRoute {
 
     @Bean
     public RouterFunction<ServerResponse> getAll(ListUseCase listUseCase) {
